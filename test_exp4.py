@@ -11,7 +11,7 @@ parser.add_argument("--epochs", type=int, default=50, help="Number of epochs for
 args = parser.parse_args()
 
 # Dataset path
-dataset_path = "/home/masn24nf/assignment1/datasets/PetImages"
+dataset_path = "/datasets/PetImages"
 
 # Load base model
 saved_model_path = "Saved_model/stanford_dogs_model_final.keras"
