@@ -13,7 +13,7 @@ parser.add_argument("--epochs", type=int, default=25, help="Number of epochs for
 args = parser.parse_args()
 
 # Dataset Path
-dataset_path = "/home/masn24nf/assignment1/datasets/PetImages"
+dataset_path = "datasets/PetImages"
 
 def remove_corrupted_images(dataset_path):
     num_skipped = 0
